@@ -85,7 +85,7 @@ The project combines a Chrome Extension, FastAPI, LangChain, and an open-source 
 ## 📁 Project Structure
 
 ```text
-chat-with-webpage/
+webpage-ai/
 │
 ├── extension/
 │   ├── manifest.json
@@ -95,15 +95,10 @@ chat-with-webpage/
 │
 ├── backend/
 │   ├── main.py
-│   ├── requirements.txt
-│   └── .env
-│
-├── .env.example
-├── .gitignore
+│   └── requirements.txt
+│  
 └── README.md
 ```
-
-> ⚠️ The `.env` file is for local use only and must never be committed to GitHub.
 
 ---
 
