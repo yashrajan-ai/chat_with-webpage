@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+
+    "name": "Chat With Webpage",
+
+    "version": "1.0",
+
+    "description": "Ask questions about the current webpage",
+
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+
+    "host_permissions": [
+        "http://127.0.0.1:8000/*"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

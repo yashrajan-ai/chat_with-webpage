@@ -1,0 +1,30 @@
+# -----------------------------
+# LangChain Core
+# -----------------------------
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+
+# -----------------------------
+# Document Loaders / Web
+# -----------------------------
+beautifulsoup4
+requests
+
+# -----------------------------
+# Embeddings / Vector Store
+# -----------------------------
+faiss-cpu
+
+# -----------------------------
+# Backend
+# -----------------------------
+fastapi
+uvicorn
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+python-dotenv
